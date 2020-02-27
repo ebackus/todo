@@ -1,0 +1,44 @@
+.todo-item{
+  display:block;
+  max-width:10px;
+  float:left;
+  clear:both;
+}
+
+.todo-label{
+      float: left;
+      max-width: 660px;
+      overflow-wrap: break-word;
+}
+
+.todo-item:checked + .todo-label{
+  text-decoration: line-through;
+}
+
+.list-item{
+  display:flex;
+  align-items: center;
+  margin:10px 0;
+}
+
+body{
+background: rgb(255,245,133);
+background: -moz-linear-gradient(170deg, rgba(255,245,133,1) 0%, rgba(255,180,95,1) 74%);
+background: -webkit-linear-gradient(170deg, rgba(255,245,133,1) 0%, rgba(255,180,95,1) 74%);
+background: linear-gradient(170deg, rgba(255,245,133,1) 0%, rgba(255,180,95,1) 74%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff585",endColorstr="#ffb45f",GradientType=1);
+background-size: cover;
+background-repeat: no-repeat;
+height:90vh;
+font-family: sans-serif;
+}
+
+#container{
+  width: 40%;
+  margin: 100px auto 0;
+  background: #fafafa;
+  padding: 30px;
+  min-height: 500px;
+  box-shadow: 2px 2px 6px 0px #714a37;
+  border-top: 20px solid #5b9c63;
+}
